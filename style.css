@@ -1,3 +1,179 @@
-h1{
-    color: blue;
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0 0;
+	padding: 0;
+	border: 0;
+	/* font-size: 12px; */
+	/* font: inherit; */
+	vertical-align: baseline;
+	font-family:"Roboto", sant-serif;
 }
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+nav{
+    display: flex;
+    justify-content:space-between;
+    padding: 24px 32px;
+}
+#logo{
+    display: inline-flex;
+    margin-right: 12px;
+}
+#academy{
+    font-weight: bolder;
+}
+.nav-links p{
+    display: inline-flex;
+    margin-right: 12px;
+}
+
+.pic1{
+	width: 100%;
+	padding: 2rem 1.5rem;
+}
+
+#start-button{
+    width: 60%;
+    display: block;
+    margin: 12px auto;
+    background-color: rgb(58, 57, 57);
+    color: white;
+    padding: 8px 0;
+}
+.row1{
+	
+	background-color: lightgrey;
+    width: 100%;
+    height: auto;
+
+}
+
+.vertical-center{
+	padding: 10rem 5rem;
+	align-content: center;
+}
+
+.h1{
+	font-size: 50px;
+}
+h4{
+	font-size: 30px;
+}
+h2{
+	padding: 0 0 1.5rem 1.5rem;
+}
+.padding{
+	padding: 0 1.5rem 2rem 1.5rem;
+	font-size: 1.2rem;
+}
+.row2{
+	/* display: flex;
+	flex-direction: row; */
+	width: 100%;
+    height: auto;
+	border-color: gray;
+}
+.small-img{
+	width: 100%;
+	height: auto;
+	padding: 32px 0px 24px 24px;
+}
+/* .item1 {
+	order: 0; 
+  }
+  .item2 {
+	order: 1; 
+ }  */
+ /* .border-left{
+	 border-left: gray;
+ } */
+
+ .bg-row{
+	 background-color: lightgrey;
+ }
+ .padding-sm-col{
+	padding: 16px 16px 16px 16px; 
+	text-align: left;
+	line-height: 250%;
+
+ }
+
+ .padding-row3{
+padding: 32px 72px;
+ }
+ .start-learning{
+	text-align: center;
+    padding: 32px 0 0 0 ;
+ }
+
+ .col-float{
+	 margin:0 32px;
+	 width: 33%;
+	 padding: 0 0;
+	 float: left;
+	 background-color: white;
+	 /* height: auto; */
+ }
+ 
+#between li{
+	 width: 100%;
+	 height: 60px;
+	 display: inline-flex;
+	 margin-right: 12px;
+	 justify-content: space-between;
+ }
+
+ @media only screen and (max-width: 767px){
+	 .media1{
+		 display: none;
+	 }
+	 .h3{
+		display: block;
+		height: auto;
+		width: 100%; 
+		padding: 8px 0;
+		background-color: gray;
+	 }
+	.start-learning {
+		background-color: white;
+	}
+	.media2{
+		background-color: white;
+
+	}
+	}
